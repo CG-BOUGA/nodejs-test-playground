@@ -18,4 +18,4 @@ projects:
         name: nodejsrunner
         version: 1
     srcDirectories:
-      - /
+      - ./
