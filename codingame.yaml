@@ -12,10 +12,10 @@ projects:
     version: 0.1
     root: /project
     builder:
-        name: codingame/nodejs-packager
+        name: codingame/nodejspackager
         version: 1
     runner:
-        name: codingame/nodej-runner
+        name: codingame/nodejrunner
         version: 1
     srcDirectories:
       - /
