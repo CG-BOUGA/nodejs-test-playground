@@ -15,7 +15,7 @@ projects:
         name: nodejspackager
         version: 1
     runner:
-        name: nodejrunner
+        name: nodejsrunner
         version: 1
     srcDirectories:
       - /
