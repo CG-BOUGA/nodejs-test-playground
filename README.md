@@ -37,3 +37,11 @@ To deploy a docker:
     docker login  -u _json_key -p "$(cat gcloud)" https://us.gcr.io
     docker tag  nodejspackager us.gcr.io/codingame-test/nodejspackager:1
     docker push us.gcr.io/codingame-test/nodejspackager:1
+
+
+
+# Notes
+ 
+ - change the folder names
+ - yaml or yml should be accepted
+ - remove the description field in yaml and keep only longDescription but rename it to "description" 
