@@ -1,0 +1,21 @@
+content:
+  title : NodeJS awesome Hello world (for advanced coders)
+  description : description ...
+  longDescription : markdowns/description.md
+  plan:
+    - title: The first lesson
+      description: This lesson will help you begin to discover the wonderful world of NodeJS
+      statement: markdowns/lesson1.md
+
+projects:
+  nodejs-hello:
+    version: 0.1
+    root: /project
+    builder:
+        name: codingame/nodejs-packager
+        version: 1
+    runner:
+        name: codingame/nodej-runner
+        version: 1
+    srcDirectories:
+      - /
