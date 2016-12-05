@@ -1,0 +1,14 @@
+{
+  "name": "learnnodejs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "hello.js",
+  "author": "Jerome Cance",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
