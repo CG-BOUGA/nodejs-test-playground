@@ -14,6 +14,8 @@ content:
       statement: markdowns/lesson4.md
     - title: 5 lesson
       statement: markdowns/lesson5.md
+    - title: 6 lesson
+      statement: markdowns/lesson6.md
 
 projects:
   nodejs-hello:
