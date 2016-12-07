@@ -10,6 +10,10 @@ content:
       statement: markdowns/lesson2.md
     - title: 3 lesson
       statement: markdowns/lesson with space.md
+    - title: 4 lesson
+      statement: markdowns/lesson4.md
+    - title: 5 lesson
+      statement: markdowns/lesson5.md
 
 projects:
   nodejs-hello:
