@@ -23,8 +23,8 @@ Build a runner with the command:
 
 Then, test it by mounting 2 volumes:
 
-- /usr/src/codingame/lib: contains the processed source created by the packager
-- /tmp/codemachines: contains the source files modified by the user in the codingame IDE
+- /project/target: contains the processed source created by the packager
+- /project/answer: contains the source files modified by the user in the codingame IDE
 
 
     docker run -v /Users/jerome/Documents/work/codingame/projects/courses/nodejs-hello-world/tmp/target:/project/target -v /Users/jerome/Documents/work/codingame/projects/courses/nodejs-hello-world/stubs/invalid:/project/answer -v /Users/jerome/Documents/work/codingame/projects/courses/nodejs-hello-world/tmp/workspace:/project/workspace nodejsrunner test.js 
@@ -48,4 +48,47 @@ To deploy a docker:
  - change the folder names
  - yaml or yml should be accepted
  - remove the description field in yaml and keep only longDescription but rename it to "description" 
+
+
+ Result of a runner:
+
+
+{
+	execution:[
+		{
+			notFound: false,
+			programStderr: "sortie erreur",
+			programStdout: "sortie standard",
+			success: true,
+			testReference: $1,
+			logs: [
+				{
+					message: "message",
+					stacktrace: [
+						{
+							container: "class",
+							function: "function",
+							line: 5
+						}
+					]
+				}
+			]
+		}
+	],
+
+	compilation: {
+		success: true,
+		logs: [
+			{
+				type: "error|warning",
+				line: 5,
+				column: 20 (optional),
+				message: "error message",
+				filename: "file1.js"
+			}
+		]
+	}
+}
+
+
  

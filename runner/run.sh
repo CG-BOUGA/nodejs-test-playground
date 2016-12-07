@@ -10,7 +10,8 @@ fail=`node_modules/mocha/bin/mocha test/$1 --reporter json | tail -n+2 | jq .sta
 
 success=`[ $fail -eq 0 ] && echo true || echo false`
 
-echo "{\"success\":"$success",\"compilation\":{}, \"execution\":{}}"
+results="[{\"success\": "$success", \"testReference\": \""$1"\"}]"
+
+echo "{\"execution\":"$results"}"
 
 exit
-

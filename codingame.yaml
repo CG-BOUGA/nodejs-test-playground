@@ -17,9 +17,9 @@ projects:
     root: /project
     builder:
         name: nodejsbuilder
-        version: 20
+        version: 0.1
     runner:
         name: nodejsrunner
-        version: 21
+        version: 0.1
     srcDirectories:
       - ./
