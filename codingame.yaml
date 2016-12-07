@@ -6,6 +6,8 @@ content:
     - title: The first lesson
       description: This lesson will help you begin to discover the wonderful world of NodeJS
       statement: markdowns/lesson1.md
+    - title: The Second lesson
+      statement: markdowns/lesson2.md
 
 projects:
   nodejs-hello:
@@ -16,6 +18,6 @@ projects:
         version: 20
     runner:
         name: nodejsrunner
-        version: 20
+        version: 21
     srcDirectories:
       - ./
