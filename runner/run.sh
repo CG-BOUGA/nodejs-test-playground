@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
-cd /usr/src/codingame/lib
+cd /project/workspace
 
-cp -r /tmp/codemachines/* ./
+cp -r /project/target/* .
+
+cp -r /project/answer/* .
 
 fail=`node_modules/.bin/mocha test/$1 --reporter json | tail -n+2 | jq .stats.failures`
 

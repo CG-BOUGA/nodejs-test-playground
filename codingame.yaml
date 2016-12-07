@@ -12,10 +12,10 @@ projects:
     version: 0.1
     root: /project
     builder:
-        name: nodejspackager
-        version: 1
+        name: nodejsbuilder
+        version: 20
     runner:
         name: nodejsrunner
-        version: 1
+        version: 20
     srcDirectories:
       - ./

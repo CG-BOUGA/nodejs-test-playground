@@ -2,18 +2,17 @@ v1
 
 # Builder
 
-Build a packager with the command:
+Build a Builder with the command:
 
-    docker build -t nodejspackager .
+    docker build -t nodejsbuilder .
 
 
 Then, test it by mounting 2 volumes: 
 
-- /usr/src/app: contains the project source
-- /tmp/distro: contains the processed source
+- /project/source: contains the project source
+- /project/target: contains the processed source
 
-
-    docker run -v /Users/jerome/Desktop/nodejs/course:/usr/src/app -v /Users/jerome/Desktop/nodejs/target:/tmp/distro nodejspackager
+    docker run -v /Users/jerome/Documents/work/codingame/projects/courses/nodejs-hello-world/project:/project/source -v /Users/jerome/Documents/work/codingame/projects/courses/nodejs-hello-world/tmp/target:/project/target nodejsbuilder
 
 
 # Runner
@@ -28,7 +27,7 @@ Then, test it by mounting 2 volumes:
 - /tmp/codemachines: contains the source files modified by the user in the codingame IDE
 
 
-    docker run -v /Users/jerome/Desktop/nodejs/target:/usr/src/codingame/lib -v /Users/jerome/Desktop/nodejs/stubs/invalid:/tmp/codemachines nodejsrunner test.js
+    docker run -v /Users/jerome/Documents/work/codingame/projects/courses/nodejs-hello-world/tmp/target:/project/target -v /Users/jerome/Documents/work/codingame/projects/courses/nodejs-hello-world/stubs/invalid:/project/answer -v /Users/jerome/Documents/work/codingame/projects/courses/nodejs-hello-world/tmp/workspace:/project/workspace nodejsrunner test.js 
 
 
 # Deploy
@@ -36,8 +35,11 @@ Then, test it by mounting 2 volumes:
 To deploy a docker:
 
     docker login  -u _json_key -p "$(cat gcloud)" https://us.gcr.io
-    docker tag  nodejspackager us.gcr.io/codingame-test/nodejspackager:1
-    docker push us.gcr.io/codingame-test/nodejspackager:1
+    docker tag  nodejsbuilder us.gcr.io/codingame-test/nodejsbuilder:1
+    docker push us.gcr.io/codingame-test/nodejsbuilder:1
+
+    docker tag  nodejsrunner us.gcr.io/codingame-test/nodejsrunner:1
+    docker push us.gcr.io/codingame-test/nodejsrunner:1
 
 
 
@@ -46,3 +48,4 @@ To deploy a docker:
  - change the folder names
  - yaml or yml should be accepted
  - remove the description field in yaml and keep only longDescription but rename it to "description" 
+ 
