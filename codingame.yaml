@@ -8,6 +8,8 @@ content:
       statement: markdowns/lesson1.md
     - title: The Second lesson
       statement: markdowns/lesson2.md
+    - title: 3 lesson
+      statement: markdowns/lesson with space.md
 
 projects:
   nodejs-hello:
