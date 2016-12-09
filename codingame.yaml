@@ -3,19 +3,23 @@ content:
   description : description ...
   longDescription : markdowns/description.md
   plan:
-    - title: The first lesson
-      description: This lesson will help you begin to discover the wonderful world of NodeJS
-      statement: markdowns/lesson1.md
-    - title: The Second lesson
-      statement: markdowns/lesson2.md
-    - title: 3 lesson
-      statement: markdowns/lesson with space.md
-    - title: 4 lesson
-      statement: markdowns/lesson4.md
-    - title: 5 lesson
-      statement: markdowns/lesson5.md
-    - title: 6 lesson
-      statement: markdowns/lesson6.md
+    - title: Chapter 1
+      plan:
+      - title: The first lesson
+        description: This lesson will help you begin to discover the wonderful world of NodeJS
+        statement: markdowns/lesson1.md
+      - title: The Second lesson
+        statement: markdowns/lesson2.md
+      - title: 3 lesson
+        statement: markdowns/lesson with space.md
+    - title: Chapter 2
+      plan:
+      - title: 4 lesson
+        statement: markdowns/lesson4.md
+      - title: 5 lesson
+        statement: markdowns/lesson5.md
+      - title: 6 lesson
+        statement: markdowns/lesson6.md
 
 projects:
   nodejs-hello:
