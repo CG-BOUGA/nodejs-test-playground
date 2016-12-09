@@ -20,11 +20,13 @@ content:
         statement: markdowns/lesson5.md
       - title: 6 lesson
         statement: markdowns/lesson6.md
-    - tiqsd
+    - title: Chapter 3
+      plan:
+        - title: Lesson 7
+          statement: markdowns/lesson7.md
 
 projects:
   nodejs-hello:
-    version: 0.1
     root: /project
     builder:
         name: nodejsbuilder
