@@ -20,8 +20,7 @@ content:
         statement: markdowns/lesson5.md
       - title: 6 lesson
         statement: markdowns/lesson6.md
-    - title: Lesson 7
-      statement: markdowns/lesson7.md
+    - tiqsd
 
 projects:
   nodejs-hello:
