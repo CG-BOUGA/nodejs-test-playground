@@ -24,7 +24,12 @@ content:
       plan:
         - title: Lesson 7
           statement: markdowns/lesson7.md
-  sqDQdff
+    - title: Chapter 4
+      plan:
+        - title: Lesson 8
+          statement: markdowns/lesson8.md
+        - title: Lesson 9
+          statement: markdowns/lessonundefined.md
 
 projects:
   nodejs-hello:
