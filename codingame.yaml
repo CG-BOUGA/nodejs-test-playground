@@ -24,6 +24,7 @@ content:
       plan:
         - title: Lesson 7
           statement: markdowns/lesson7.md
+  sqDQd
 
 projects:
   nodejs-hello:
