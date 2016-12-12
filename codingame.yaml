@@ -29,7 +29,7 @@ content:
         - title: Lesson 8
           statement: markdowns/lesson8.md
         - title: Lesson 9
-          statement: markdowns/lessonundefined.md
+          statement: markdowns/lessonun9.md
 
 projects:
   nodejs-hello:
