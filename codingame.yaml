@@ -30,6 +30,8 @@ content:
           statement: markdowns/lesson8.md
         - title: Lesson 9
           statement: markdowns/lesson9.md
+        - title: Lesson 10
+          statement: markdowns/lesson10.md
 
 projects:
   nodejs-hello:
