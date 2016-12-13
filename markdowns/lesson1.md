@@ -6,7 +6,7 @@ Once you have understand and learn all NodeJS, Arrow functions, Promises, advanc
 
 @[In this exercise, you need to understand this !$? code and return the most extremely known word "hello"]({"stubs": ["hello.js"], "command": "test.js"})
 
-%[Quizz description text]
+?[Quizz description text]
 - [x] answer 1
 - [x] answer 2
 - [ ] answer 3
