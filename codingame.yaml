@@ -32,15 +32,14 @@ content:
           statement: markdowns/lesson9.md
         - title: Lesson 10
           statement: markdowns/lesson10.md
-
 projects:
   nodejs-hello:
     root: /project
     builder:
-        name: nodejsbuilder
-        version: 0.1
+        name: fraisse/nodejs-builder
+        version: 1
     runner:
-        name: nodejsrunner
-        version: 0.1
+        name: fraisse/nodejs-runner
+        version: 2
     srcDirectories:
       - ./
