@@ -1,7 +1,7 @@
 content:
   title : NodeJS awesome Hello world (for advanced coders)
   description : description ...
-  longDescription : markdowns/description.md
+  about : markdowns/description.md
   plan:
     - title: Chapter 1
       plan:

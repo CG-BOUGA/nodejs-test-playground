@@ -12,3 +12,11 @@ Once you have understand and learn all NodeJS, Arrow functions, Promises, advanc
 - [ ] answer 3
 
 If you are here, you are probably one of the best NodeJS expert of the world, you can just say thank you to me.
+
+# This is a test
+
+Testing the separators => fix margins
+
+<hr>
+
+Below hr.
