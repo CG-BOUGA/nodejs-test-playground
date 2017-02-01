@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "main": "hello.js",
-  "author": "Jerome Cance",
+  "author": "BOUGA",
   "dependencies": {},
   "devDependencies": {
     "mocha": "^3.2.0"

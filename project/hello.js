@@ -1,11 +1,5 @@
-const utils = require('./utils.js');
+exports.sayHello = sayHello;
 
 function sayHello() {
-
-	utils.log('test');
-
-	// return hello
 	return 'goodbye';
 }
-
-exports.sayHello = sayHello;

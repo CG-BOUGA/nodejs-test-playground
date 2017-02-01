@@ -5,7 +5,7 @@ tincidunt eleifend. Nullam tincidunt ligula ipsum, ac volutpat ante viverra
 non. Vivamus congue bibendum venenatis. Donec cursus, eros quis aliquet
 semper, est turpis gravida lacus, eu porta quam justo vitae mauris. 
 
-@[Coucou]({"stubs": ["hello.js", "hello2.js"], "command": "test.js"})
+@[Coucou]({"stubs": ["pwet.js"], "command": "test-pwet.js"})
 
 ?[This is a quiz!](multiple)
 - [ ] A
