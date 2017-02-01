@@ -11,3 +11,8 @@ tincidunt eleifend.
 Phasellus sollicitudin imperdiet finibus. Vivamus egestas molestie
 consectetur. Duis sit amet semper enim. Sed fermentum elit augue, nec semper
 tortor ultrices sed.
+
+![Kikou](http://dreamatico.com/data_images/kitten/kitten-3.jpg)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas
+tincidunt eleifend. 
