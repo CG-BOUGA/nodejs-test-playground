@@ -3,7 +3,7 @@
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas
 tincidunt eleifend. 
 
-@[Coucou]({"stubs": ["pwet.js"], "command": "test-pwet.js", "layout": "inline"})
+@[Coucou]({"stubs": ["pwet.js"], "command": "test-pwet.js"})
 
 @[Exoooo]({"stubs": ["pwet.js"], "command": "test-pwet.js", "layout": "aside"})
 
