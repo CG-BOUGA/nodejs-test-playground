@@ -28,17 +28,17 @@ content:
         statement: markdowns/chapter1/lesson10.md
     - title: Chapter 2
       plan:
-      - title: Lesson 1
+      - title: Chap 2 - Lesson 1
         statement: markdowns/chapter2/lesson1.md
-      - title: Lesson 2
+      - title: Chap 2 - Lesson 2
         statement: markdowns/chapter2/lesson2.md
     - title: Chapter 3
       plan:
-        - title: Lesson 1
+        - title: Chap 3 - Lesson 1
           statement: markdowns/chapter3/lesson1.md
-        - title: Lesson 2
+        - title: Chap 3 - Lesson 2
           statement: markdowns/chapter3/lesson2.md
-        - title: Lesson with space
+        - title: Chap 3 - Lesson with space
           statement: markdowns/chapter3/lesson with space.md
 projects:
   nodejs-hello:
