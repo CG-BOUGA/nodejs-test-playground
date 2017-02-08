@@ -7,31 +7,39 @@ content:
       plan:
       - title: The first lesson
         description: This lesson will help you begin to discover the wonderful world of NodeJS
-        statement: markdowns/lesson1.md
+        statement: markdowns/chapter1/lesson1.md
       - title: The Second lesson
-        statement: markdowns/lesson2.md
-      - title: 3 lesson
-        statement: markdowns/lesson with space.md
+        statement: markdowns/chapter1/lesson2.md
+      - title: The 3rd lesson
+        statement: markdowns/chapter1/lesson3.md
+      - title: The 4th lesson
+        statement: markdowns/chapter1/lesson4.md
+      - title: The 5th lesson
+        statement: markdowns/chapter1/lesson5.md
+      - title: The 6th lesson
+        statement: markdowns/chapter1/lesson6.md
+      - title: The 7th lesson
+        statement: markdowns/chapter1/lesson7.md
+      - title: The 8th lesson
+        statement: markdowns/chapter1/lesson8.md
+      - title: The 9th lesson
+        statement: markdowns/chapter1/lesson9.md
+      - title: The 10th lesson
+        statement: markdowns/chapter1/lesson10.md
     - title: Chapter 2
       plan:
-      - title: 4 lesson
-        statement: markdowns/lesson4.md
-      - title: 5 lesson
-        statement: markdowns/lesson5.md
-      - title: 6 lesson
-        statement: markdowns/lesson6.md
+      - title: Lesson 1
+        statement: markdowns/chapter2/lesson1.md
+      - title: Lesson 2
+        statement: markdowns/chapter2/lesson2.md
     - title: Chapter 3
       plan:
-        - title: Lesson 7
-          statement: markdowns/lesson7.md
-    - title: Chapter 4
-      plan:
-        - title: Lesson 8
-          statement: markdowns/lesson8.md
-        - title: Lesson 9
-          statement: markdowns/lesson9.md
-        - title: Lesson 10
-          statement: markdowns/lesson10.md
+        - title: Lesson 1
+          statement: markdowns/chapter3/lesson1.md
+        - title: Lesson 2
+          statement: markdowns/chapter3/lesson2.md
+        - title: Lesson with space
+          statement: markdowns/chapter3/lesson with space.md
 projects:
   nodejs-hello:
     root: /project
