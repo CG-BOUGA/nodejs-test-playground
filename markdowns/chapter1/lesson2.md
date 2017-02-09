@@ -36,3 +36,6 @@ Testing js script:
 
 Testing img:
 <img src="http://dreamatico.com/data_images/kitten/kitten-3.jpg" style="height: 1000px;">
+
+Testing XSS img onerror:
+<img src="http://gloubiboulga-codingame.jpg" onerror="window.alert('xss')">
