@@ -17,3 +17,14 @@ consectetur. Duis sit amet semper enim. Sed fermentum elit augue, nec semper
 tortor ultrices sed. Fusce ac elit suscipit, auctor augue et, sollicitudin
 metus. Nunc tempor tincidunt ipsum. Suspendisse potenti. Fusce blandit massa
 quam.
+
+Testing link:
+<a href="http://www.google.com">Testing links</a>
+
+Testing iframe:
+<iframe id="player" type="text/html" width="640" height="360"
+  src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
+  frameborder="0"></iframe>
+
+Testing js script:
+<script>alert('kikou')</script>
