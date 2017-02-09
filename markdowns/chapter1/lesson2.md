@@ -33,3 +33,6 @@ Testing iframe:
 
 Testing js script:
 <script>alert('kikou')</script>
+
+Testing img:
+<img src="http://dreamatico.com/data_images/kitten/kitten-3.jpg" style="height: 1000px;">
