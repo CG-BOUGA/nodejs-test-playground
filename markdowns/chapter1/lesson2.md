@@ -18,6 +18,11 @@ tortor ultrices sed. Fusce ac elit suscipit, auctor augue et, sollicitudin
 metus. Nunc tempor tincidunt ipsum. Suspendisse potenti. Fusce blandit massa
 quam.
 
+Testing blockquotes:
+> Blockquote (markdown)
+
+<bloquote>Blockquote (html)</bloquote>
+
 Testing link:
 <a href="http://www.google.com">Testing links</a>
 
