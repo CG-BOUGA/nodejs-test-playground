@@ -43,11 +43,11 @@ content:
 projects:
   nodejs-hello:
     root: /project
-    builder:
-        name: fraisse/nodejs-builder
-        version: 1
+    # runner:
+    #     name: fraisse/nodejs-runner
+    #     version: 2
     runner:
-        name: fraisse/nodejs-runner
-        version: 2
+      name: codingame/node-npm-runner
+      version: 1.1.0-7.4
     srcDirectories:
       - ./
