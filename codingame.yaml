@@ -48,6 +48,6 @@ projects:
     #     version: 2
     runner:
       name: codingame/node-npm-runner
-      version: 1.1.0-7.4
+      version: 1.1.0-node-7.4
     srcDirectories:
       - ./
