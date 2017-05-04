@@ -1,8 +1,17 @@
 # Become a Ninja
 
-<a href="https://www.youtube.com/watch?v=2yrMGMyEWsE">Hey!</a>
+<a href="test"><script>alert('XSS')</script></a>
 
-<a href="&quot;><script>alert('XSS')</script><a &quot;">Hey 2!</a>
+<a href="https://www.youtube.com/watch?v=2yrMGMyEWsE">Raw link</a>
+
+<a href="https://youtu.be/2yrMGMyEWsE">Minified link</a>
+
+<a href="https://www.youtube.com/embed/watch?v=2yrMGMyEWsE">Embedded link</a>
+
+Iframe:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2yrMGMyEWsE" frameborder="0" allowfullscreen></iframe>
+
+<a href="&quot;><script>alert('XSS')</script><a &quot;" title>Test XSS in href</a>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas
 tincidunt eleifend. Nullam tincidunt ligula ipsum, ac volutpat ante viverra
