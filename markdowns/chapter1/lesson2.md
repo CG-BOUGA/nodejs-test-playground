@@ -1,5 +1,9 @@
 # Become a Ninja
 
+<a href="https://www.youtube.com/watch?v=2yrMGMyEWsE">Hey!</a>
+
+<a href="&quot;><script>alert('XSS')</script><a &quot;">Hey 2!</a>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas
 tincidunt eleifend. Nullam tincidunt ligula ipsum, ac volutpat ante viverra
 non. Vivamus congue bibendum venenatis. Donec cursus, eros quis aliquet
