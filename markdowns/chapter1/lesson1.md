@@ -1,5 +1,11 @@
 # Welcome to NODEJS
 
+[Raw link](https://www.youtube.com/watch?v=2yrMGMyEWsE)
+
+[Minified link](https://youtu.be/2yrMGMyEWsE)
+
+[Embedded link](https://www.youtube.com/embed/watch?v=2yrMGMyEWsE)
+
 Node.js is a quite simple language.
 
 Once you have understood and learned everything in NodeJS (arrow functions,
