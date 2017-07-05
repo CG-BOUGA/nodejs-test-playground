@@ -2,10 +2,9 @@ title : NodeJS awesome Hello world (for advanced coders)
 plan:
   - title: Chapter 1
     plan:
-    - title: The first lesson The first lesson The first lesson The first lesson The first lesson
-      description: This lesson will help you begin to discover the wonderful world of NodeJS
+    - title: The 1st lesson The first lesson The first lesson The first lesson The first lesson
       statement: markdowns/chapter1/lesson1.md
-    - title: The Second lesson The Second lesson The Second lesson The Second lesson The Second lesson
+    - title: The 2nd lesson The Second lesson The Second lesson The Second lesson The Second lesson
       statement: markdowns/chapter1/lesson2.md
     - title: The 3rd lesson The 3rd lesson The 3rd lesson The 3rd lesson The 3rd lesson The 3rd lesson
       statement: markdowns/chapter1/lesson3.md
@@ -40,11 +39,7 @@ plan:
 projects:
   nodejs-hello:
     root: /project
-    # runner:
-    #     name: fraisse/nodejs-runner
-    #     version: 2
-    runner:
-      name: techio/node-npm-runner
-      version: 1.1.0-node-7.4
+    runner: node:8.1.2
+    buildCommand: npm install
     srcDirectories:
       - ./
