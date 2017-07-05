@@ -6,4 +6,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tincidunt odio
 
 @[Fix this project]({ "stubs": ["hello.1.js", "hello.2.js", "hello.3.js", "hello.4.js"], "command": "npm test -- test/test.1.js" })
 
-@[Test viewer]({ "stubs": ["hello.1.js", "hello.2.js", "hello.3.js", "hello.4.js"], "command": "echo 'TECHIO> open --static-dir /project/target pwet.js'" })
+@[Test viewer]({ "stubs": ["hello.1.js", "hello.2.js", "hello.3.js", "hello.4.js"], "command": "echo 'TECHIO> open --static-dir /project/target index.html'" })
