@@ -14,6 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tincidunt odio
 
 ?[What do you think of python??]
 - [ ] This is the best language ever, forever!
-- [x] Meh... it's OK
+- [x] Cool language!
+- [ ] Meh... it's OK
 - [ ] I don't like it but I have to complete your 'Getting started'
 - [ ] I hate it, please let me go!
