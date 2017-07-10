@@ -11,3 +11,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tincidunt odio
 - [ ] A
 - [x] B
 - [ ] C
+
+# Bouga 1.5
+
+> This is a test blockquote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tincidunt odio. Duis tincidunt facilisis elit. Donec rhoncus, lacus venenatis vulputate tincidunt, ex massa pulvinar orci, non mollis ipsum dolor eget ex.
+
+# Bouga 2
+
+```js
+function hey(a) {
+  return 'this is a test';
+}
+```
