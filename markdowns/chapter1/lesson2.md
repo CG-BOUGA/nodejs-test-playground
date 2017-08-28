@@ -1,6 +1,6 @@
 # Become a Ninja
 
-<a href="test"><script>alert('XSS')</script></a>
+<a href="test"><script>alert('XSS <script>')</script></a>
 
 <a href="https://www.youtube.com/watch?v=2yrMGMyEWsE">Raw link</a>
 
@@ -11,7 +11,7 @@
 Iframe:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2yrMGMyEWsE" frameborder="0" allowfullscreen></iframe>
 
-<a href="&quot;><script>alert('XSS')</script><a &quot;" title>Test XSS in href</a>
+<a href="&quot;><script>alert('XSS href')</script><a &quot;" title>Test XSS in href</a>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas
 tincidunt eleifend. Nullam tincidunt ligula ipsum, ac volutpat ante viverra
@@ -51,4 +51,4 @@ Testing img:
 <img src="http://dreamatico.com/data_images/kitten/kitten-3.jpg" style="height: 1000px;">
 
 Testing XSS img onerror:
-<img src="http://gloubiboulga-codingame.jpg" onerror="window.alert('xss')">
+<img src="http://gloubiboulga-codingame.jpg" onerror="window.alert('XSS img onerror')">
