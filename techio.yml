@@ -39,7 +39,7 @@ plan:
 projects:
   nodejs-hello:
     root: /project
-    runner: node:8.1.2
+    runner: node:8.4.0
     buildCommand: npm install
     srcDirectories:
       - ./
