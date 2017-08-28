@@ -1,13 +1,11 @@
 {
   "name": "learnnodejs",
   "version": "0.0.0",
-  "description": "",
-  "main": "hello.js",
-  "author": "BOUGA",
   "dependencies": {
-    "mocha": "^3.2.0"
+    "mocha": "3.5.0"
   },
   "scripts": {
     "test": "mocha"
-  }
+  },
+  "private": true
 }
