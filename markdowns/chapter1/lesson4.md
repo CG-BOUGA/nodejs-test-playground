@@ -1,7 +1,7 @@
 # First level title
 
 
-```javascript runnable
+```javascript
 var x = 42;
 function hey(bouga) {
     return 'test ' + x;
@@ -10,6 +10,14 @@ hey(x);
 ```
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tincidunt odio. Duis tincidunt facilisis elit. Donec rhoncus, lacus venenatis vulputate tincidunt, ex massa pulvinar orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tincidunt odio. Duis tincidunt facilisis elit. Donec rhoncus, lacus venenatis vulputate.
+
+```javascript runnable
+var x = 42;
+function hey(bouga) {
+    return 'test ' + x;
+}
+hey(x);
+```
 
 ```javascript
 var x = 42;
