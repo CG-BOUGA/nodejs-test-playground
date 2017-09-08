@@ -1,5 +1,15 @@
 # First level title
 
+
+```javascript
+var x = 42;
+function hey(bouga) {
+    return 'test ' + x;
+}
+hey(x);
+```
+
+
 ## Second level title
 
 BOUGABOUGA test save 27
