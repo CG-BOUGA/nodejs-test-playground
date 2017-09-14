@@ -42,7 +42,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tincidunt odio
 
 ```java runnable
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("hey");
     }
 }
