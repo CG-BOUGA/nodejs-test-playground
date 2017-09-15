@@ -12,7 +12,7 @@ plan:
     statement: markdowns/chapter1/lesson4.md
   - title: The 5th lesson
     statement: markdowns/chapter1/lesson5.md
-  - title: '6: Titles'
+  - title: '6: Titles test'
     statement: markdowns/chapter1/lesson6.md
   - title: The 7th lesson
     statement: markdowns/chapter1/lesson7.md
