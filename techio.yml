@@ -4,7 +4,7 @@ plan:
   plan:
   - title: The 1st lesson The first lesson The first lesson The first lesson The first lesson
     statement: markdowns/chapter1/lesson1.md
-  - title: The 2nd lesson The Second lesson The Second lesson The Second lesson The Second lesson
+  - title: XSS - The 2nd lesson The Second lesson The Second lesson The Second lesson The Second lesson
     statement: markdowns/chapter1/lesson2.md
   - title: The 3rd lesson The 3rd lesson The 3rd lesson The 3rd lesson The 3rd lesson The 3rd lesson
     statement: markdowns/chapter1/lesson3.md
